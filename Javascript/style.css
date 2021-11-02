@@ -1,0 +1,130 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #bbb;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    background-color: white;
+    width: 60%;
+    height: 75%;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.register-form>* {
+    margin: 2rem;
+}
+
+.register-form>h2 {
+    font-size: 3rem;
+}
+
+.username,
+.phone {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.username input,
+.phone input {
+    border: none;
+    width: 100%;
+}
+
+.username input:focus,
+.phone input:focus {
+    outline: none;
+}
+
+.use-email {
+    color: #3498db;
+}
+
+.use-email:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*It contain three sub-container Month, Day and Year */
+
+.select-dob {
+    margin: 4rem 0rem;
+    display: flex;
+}
+
+
+/* It is these contain which contain paragraph and select*/
+
+.select-dob>* {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    margin: 0.5rem;
+}
+
+
+/* This is for all select of Moth, Day, Year*/
+
+.select-dob select {
+    width: 100%;
+    border: none;
+    font-size: 2rem;
+}
+
+.select-dob select:hover {
+    cursor: pointer;
+}
+
+.select-dob select:focus {
+    outline: none;
+}
+
+
+/* Text */
+
+.select-dob p {
+    font-size: 1.5rem;
+    color: #bbb;
+}
+
+.select-dob>.month {
+    flex: 2;
+}
+
+
+/* button next*/
+
+.next-button {
+    width: 100%;
+    margin: 0;
+    border-radius: 10rem;
+    border: none;
+    height: 4rem;
+    background-color: #7f8c8d;
+    color: #fff;
+}
+
+.next-button:focus {
+    outline: none;
+}
